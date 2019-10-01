@@ -19,7 +19,7 @@ public class Solution {
         int b;
         b = in.nextInt();
         int sum;
-        sum = solveMeFirst(a, b);
+        sum = solveMeFirst(a, b);//形式参数 
         System.out.println(sum);
    }
 }
