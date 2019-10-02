@@ -4,7 +4,7 @@ public class Test20190928 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+		//计算a+b*c
 		int a = scan.nextInt();	
 		int b = scan.nextInt();
 		int c = scan.nextInt();	
@@ -27,5 +27,6 @@ public class Test20190928 {
 	
 	
 	public static int add(int a, int e) {
-		return a+e;}
+		return a+e;
+		}
 }

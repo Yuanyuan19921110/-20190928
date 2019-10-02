@@ -5,7 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 
-public class Solution2 {
+public class Test20190921 {
 
  public static void main(String[] args) {
       
