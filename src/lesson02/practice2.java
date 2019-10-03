@@ -18,7 +18,7 @@ public class practice2 {
     }
         
      public static int calculate(int a,int b,int c,int d,int e) {
-        	int m=multiple(a,a);
+        	int m=multiple(a);
         	int n=mod(b,c); 
         	int t=sub(n,d);
         	int u=multiple2(t,e);
@@ -26,7 +26,7 @@ public class practice2 {
         	return result;
     }
      
-    public static int multiple(int a,int b){ 
+    public static int multiple(int a){ 
     	return a*a;
     //1.º∆À„a^2
     } 
