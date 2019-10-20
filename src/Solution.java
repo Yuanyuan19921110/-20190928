@@ -1,40 +1,34 @@
-import java.util.*;
 import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*; 
+import java.util.regex.*;
 
+public class Solution {
+ private static final Scanner scanner = new Scanner(System.in);
 
-
-class Solution{
-    public static void main(String []argh)
-    {
-       Scanner sc = new Scanner(System.in);
-        int t=sc.nextInt();
-
-        for(int i=0;i<t;i++)
-        {
-
-       try
-        {
-            long x=sc.nextLong();
-             System.out.println(x+" can be fitted in:");
-             if(x>=-128 && x<=127)System.out.println("* byte");
-                //Complete the code
-    
-             
-             if(x>=java.lang.Short.MIN_VALUE && x<=java.lang.Short.MAX_VALUE)System.out.println("* short");
-     
-             if(x>=java.lang.Integer.MIN_VALUE && x<=java.lang.Integer.MAX_VALUE)System.out.println("* int");
-             
-             if(x>=java.lang.Long.MIN_VALUE && x<=java.lang.Long.MAX_VALUE)System.out.println("* long");
-             
-            }
-            catch(Exception e)
-            {
-                System.out.println(sc.next()+" can't be fitted anywhere.");
-            }
-
-        }
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        int a =1;
+        for(;a<=10;a++) {
+        	 int result=(N*a);
+     		
+             System.out.println(N+" "+"x"+" "+ a +" "+ "="+" " +N*a);
+        	}/*
+        	2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20*/
+        
+        scanner.close();
     }
 }
-
-
-
