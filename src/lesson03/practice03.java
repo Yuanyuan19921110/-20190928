@@ -6,16 +6,14 @@ public class practice03 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int a=scan.nextInt();
-        int b=scan.nextInt();
-    
-       for(int i=1;i<=a;i++) {
-             b=  i*a;
-        
-        	System.out.println();
-   }
-       System.out.println(a*b);
-      
+		long a=scan.nextInt();
+        long b=scan.nextInt();
+       
+       for(long i=1;i<=b;i++) {
+            a *= a;
+        return 
+        	System.out.println(result);
+     } 
      }
 	 }
      
