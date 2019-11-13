@@ -11,14 +11,15 @@ public class Practice07 {
 	
 	    	if(n==1)return"Not prime";
 	        else if(n==2)return"prime" ;
-	    	
+	        else {
 	        for(int i=2;i<=n;i++) 
 	        if(n%i==0) return "Not prime";
+	        }
 	        return "prime";
 	    
 	  
 	    }
-	    
+	 
 
 	    private static final Scanner scanner = new Scanner(System.in);
 
