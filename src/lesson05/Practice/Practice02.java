@@ -18,7 +18,12 @@ class Bird extends Animal
 	{
 		System.out.println("I am flying");
 	}
-
+//	class Bird extends Animal
+//	{
+//		void sing()
+//		{
+//			System.out.println("I am singing");
+//		}
     void sing()//×÷ÒµÄÚÈÝ
 	{
 		System.out.println("I am singing");
