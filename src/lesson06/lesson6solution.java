@@ -11,16 +11,27 @@ public class lesson6solution {
 
     // Complete the equalizeArray function below.
     static int equalizeArray(int[] arr) {
-    	int[] equalizeArray_arr=new int[101];
-    	for(int i=0;i<arr.length;i++)
-    	 equalizeArray_arr[ arr[i] ]++;
-    
-    	int m=0;
-    	for(int i=0;i<equalizeArray_arr.length;i++)
-    		m=equalizeArray_arr[i]-arr[i] ;
-    	 return m;
+    	
+    	int[] m=new int[100];
+        for(int i=0;i<arr.length;i++){
+           m[arr[i]-1]++;
+           }
+           int m_max=0;
+           for(int i=0;i<m.length;i++){
+           if(m[i]>m_max)
+    	    m_max = m[i];
+           }
+    		     
+         return	arr.length-m_max ;
+            }
+        	 
+    		
+		
+    		
     	 
-    }
+    	
+    	 
+    
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -44,5 +55,5 @@ public class lesson6solution {
         System.out.println(result);
 
         scanner.close();
-    }
-}
+    }}
+

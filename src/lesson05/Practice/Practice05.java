@@ -24,7 +24,7 @@ public class Practice05 {
 	   //sum= sum + color_arr[i]/2;是上文缩写前的原型
 		  
 	   for(int num:color_arr)
-		   sum +=color_arr[i]/2;
+		   sum +=num/2;
 	   return sum;
 	  }
 	    private static final Scanner scanner = new Scanner(System.in);
