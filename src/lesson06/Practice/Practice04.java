@@ -13,14 +13,22 @@ public class Practice04 {
     static int simpleArraySum(int[] ar) {
     	
     	
-        int sum=0;
-       
-    	for(int a:ar) 
-    		
- 		sum +=a;
+//       int sum=0;
+//       
+//    	for(int a:ar) 
+//    		
+// 		sum +=a;
+//    	
+// 	   return sum;
     	
- 	   return sum;
-  
+    	int sum = 0;
+    	for(int i=0; i<ar.length; i++) {
+    		
+ 
+		sum +=ar[i];
+		}
+    	return sum;
+
     }
 
     private static final Scanner scanner = new Scanner(System.in);
