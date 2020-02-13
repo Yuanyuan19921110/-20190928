@@ -17,10 +17,20 @@ public class Practice02 {
     static int birthday(List<Integer> s, int d, int m) {
        Integer[] arr=new Integer[s.size()];
        s.toArray(arr);
-       for(int i=0;i<arr.length;i++) { 
-    	   if()
-       }
-       
+       int count = 0;
+		if (s.size() == 1 && d == s.get(0) && m == 1)
+			return 1;
+		for (int i = 0; i < s.size() - m + 1; i++) {
+			int sum = s.get(i);
+			for (int k = i + 1; k < (i + m); k++) {
+				sum += s.get(k);
+			}
+			if (sum == d) {
+				count++;
+			}
+		}
+		return count;
+
 
     }
 

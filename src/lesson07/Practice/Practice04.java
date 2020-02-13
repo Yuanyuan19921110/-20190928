@@ -1,4 +1,4 @@
-package lesson07.Practice;
+package lesson07.Practice; 
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -24,7 +24,9 @@ class Result {
 
     public static int nonDivisibleSubset(int k, List<Integer> s) {
     // Write your code here
-
+      Integer []arr=new Integer[s.size()];
+      s.toArray(arr);
+      Integer
     }
 
 }

@@ -11,7 +11,8 @@ public class Practice01 {
 
     // Complete the breakingRecords function below.
     static int[] breakingRecords(int[] scores) {
-       int[] x=new int[2];
+       //保存打破记录的结果
+    	int[] x=new int[2];
     	int a=0;
     	int b=0;
     	x[0]=a;
