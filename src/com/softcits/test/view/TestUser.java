@@ -15,8 +15,9 @@ public  class TestUser{
     	 System.out.println("’à›î»Îpassword");
     	 String pwd=sc.next();
     	 User u=new User();
-    	// u.login(na,pwd);
-    	 if(u.login(na,pwd)) {
+    	 u.setName(na);
+    	 u.setPassword(pwd);
+    	 if(u.login(na, pwd)) {
     		 System.out.println("µ«‰õ≥…π¶£°"+"ög”≠ƒ„£¨"+na); 
     	 }
     	 else {
