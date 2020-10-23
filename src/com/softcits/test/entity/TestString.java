@@ -10,7 +10,7 @@ public class TestString {
         String str4="123";
         System.out.println(str1==str3);//fasle
         System.out.println(str3==str4);//ture
- //StringBuffer是一个对象，（数组）可以改变本身的，不用new，不改变内存的存储位置，可改变赋值。
+ //StringBuffer是一个对象 在栈，堆，（数组）可以改变本身的，不用new，不改变内存的存储位置，可改变赋值。
         StringBuffer s =new StringBuffer("123");
         
 	}

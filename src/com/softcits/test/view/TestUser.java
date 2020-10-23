@@ -20,6 +20,7 @@ public  class TestUser{
     	 if(u.login(na, pwd)) {
     		 System.out.println("µÇä›³É¹¦£¡"+"šgÓ­Äã£¬"+na); 
     	 }
+    	 
     	 else {
     		 System.out.println("µÇä›Ê§”¡£¡"); 
     	 }
